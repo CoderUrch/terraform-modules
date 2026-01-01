@@ -13,7 +13,7 @@ resource "aws_subnet" "web_subnet" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name = "web_subnet"
+    Name = "${var.environment}-subnet"
   }
 
   # Explicit dependency - wait for VPC to be fully created

@@ -20,3 +20,7 @@ variable "subnet_cidr" {  # Renamed from aws_subnet
   type        = string
 }
 
+variable "environment" {
+  description = "Environment name"
+  type        = string
+}

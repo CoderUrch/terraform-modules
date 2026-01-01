@@ -18,3 +18,8 @@ variable "subnet_id" {
   description = "Subnet ID from networking module"
   type        = string
 }
+
+variable "environment" {
+  description = "Environment name"
+  type        = string
+}
