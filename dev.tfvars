@@ -1,0 +1,6 @@
+environment       = "dev"
+aws_region        = "eu-north-1"
+vpc_cidr          = "10.0.0.0/16"
+subnet_cidr       = "10.0.1.0/24"
+aws_instance_type = "t3.micro"
+aws_ami           = "ami-08526b399bb6eb2c7"
