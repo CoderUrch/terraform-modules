@@ -1,6 +1,0 @@
-environment       = "staging"
-aws_region        = "us-east-1"
-vpc_cidr          = "10.2.0.0/16"
-subnet_cidr       = "10.2.1.0/24"
-aws_instance_type = "t3.micro"
-aws_ami           = "ami-0abcdef1234567890"
