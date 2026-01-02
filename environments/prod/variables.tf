@@ -28,16 +28,16 @@ variable "aws_ami" {
 }
 
 variable "environment" {
-  type = string
+  type    = string
   default = "prod"
 }
 
 variable "aws_vpc" {
-  type = string
+  type    = string
   default = "prod-vpc"
 }
 
 variable "aws_subnet" {
-  type = string
+  type    = string
   default = "prod-subnet"
 }
