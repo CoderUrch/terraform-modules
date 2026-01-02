@@ -1,1 +1,1 @@
-aws_ami           = "ami-049442a6cf8319180"
+aws_ami = "ami-049442a6cf8319180"

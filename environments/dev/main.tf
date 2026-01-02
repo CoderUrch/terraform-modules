@@ -3,8 +3,9 @@ provider "aws" {
 }
 
 module "networking" {
-  source = "../modules/networking"  # Reference shared modules
+  source = "../../modules/networking" # Reference shared modules
 
+  environment = var.environment
   aws_vpc     = var.aws_vpc
   vpc_cidr    = var.vpc_cidr
   aws_subnet  = var.aws_subnet
@@ -13,8 +14,9 @@ module "networking" {
 }
 
 module "compute" {
-  source = "../modules/compute"
+  source = "../../modules/compute"
 
+  environment       = var.environment
   aws_ami           = var.aws_ami
   aws_instance_type = var.aws_instance_type
 
