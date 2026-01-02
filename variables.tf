@@ -1,13 +1,11 @@
 variable "aws_vpc" {
   description = "The name of the VPC"
   type        = string
-  default     = "web-vpc"
 }
 
 variable "aws_subnet" {
   description = "webtier subnet"
   type        = string
-  default     = "web-subnet"
 }
 
 variable "vpc_cidr" { # Renamed from aws_vpc to be clear it's a CIDR
