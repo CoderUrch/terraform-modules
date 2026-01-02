@@ -5,7 +5,7 @@ resource "aws_instance" "web_instance" {
   vpc_security_group_ids = [aws_security_group.web-sg.id]
 
   tags = {
-    Name = "web_instance"
+    Name = "${var.environment}-instance"
   }
 }
 
